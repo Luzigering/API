@@ -12,11 +12,11 @@ Sabemos que a convenção seria fazer todas as entidades, mas a modalidade escol
 * NPM v.8.3.1
 
 ## Pacotes utilizados
-* [Express](https://www.npmjs.com/package/express) v.4.17.3
-* [Nodemon](https://www.npmjs.com/package/nodemon) v.2.0.15
-* [SQLite](https://www.npmjs.com/package/sqlite3)  v.5.0.0
-* [Jest](https://jestjs.io/docs/getting-started)   v.27.5.1
-* [Supertest](https://www.npmjs.com/package/supertest) v.6.2.2
+ ✏️[Express](https://www.npmjs.com/package/express) v.4.17.3
+ ✏️[Nodemon](https://www.npmjs.com/package/nodemon) v.2.0.15
+ ✏️[SQLite](https://www.npmjs.com/package/sqlite3)  v.5.0.0
+ ✏️[Jest](https://jestjs.io/docs/getting-started)   v.27.5.1
+ ✏️[Supertest](https://www.npmjs.com/package/supertest) v.6.2.2
 
 ## Instalação da Aplicação
 
