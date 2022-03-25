@@ -1,0 +1,28 @@
+{
+  "name": "escolaapi",
+  "version": "0.0.1",
+  "description": "Projeto Conclusão MD.4- Escola",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "start": "node ./src/server.js",
+    "database": "node ./src/database/create-and-populate.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "author": "luzianegering",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  },
+  "engines": {
+    "node": "16"
+  }
+}
