@@ -12,11 +12,11 @@ Sabemos que a convenção seria fazer todas as entidades, mas a modalidade escol
 * NPM v.8.3.1
 
 ## Pacotes utilizados
- ✏️[Express](https://www.npmjs.com/package/express) v.4.17.3
- ✏️[Nodemon](https://www.npmjs.com/package/nodemon) v.2.0.15
- ✏️[SQLite](https://www.npmjs.com/package/sqlite3)  v.5.0.0
- ✏️[Jest](https://jestjs.io/docs/getting-started)   v.27.5.1
- ✏️[Supertest](https://www.npmjs.com/package/supertest) v.6.2.2
+ ✏️[Express](https://www.npmjs.com/package/express) 
+ ✏️[Nodemon](https://www.npmjs.com/package/nodemon) 
+ ✏️[SQLite](https://www.npmjs.com/package/sqlite3)  
+ ✏️[Jest](https://jestjs.io/docs/getting-started)   
+ ✏️[Supertest](https://www.npmjs.com/package/supertest) 
 
 ## Instalação da Aplicação
 
@@ -26,25 +26,26 @@ Clonando o repositório:
 ```
 git clone git@github.com:luzianegering/Escola-API-Biblioteca.git
 ```
-Em seguida, pode entrar na pasta raiz pelo comando 'cd'.
+✏️Em seguida, pode entrar na pasta raiz pelo comando 'cd':
 ```
 cd API
 ```
 
-Comando necessário para instalar as dependências. (Para o pacote Nodemon, pode se fazer em um comando separado com a sintaxe padrão seguida por --save-dev)
+✏️Comando necessário para instalar as dependências. (Para o pacote Nodemon, pode se fazer em um comando separado com a sintaxe padrão seguida por --save-dev):
 ```
 npm install express sqlite3 jest supertest
 ```
 
-Comando necessário para efetivamente 'rodar' seu banco devidamente criado e populado.
+✏️Comando necessário para efetivamente 'rodar' seu banco devidamente criado e populado:
 ```
 npm run database
 ```
 
-Iniciamos o nosso serv pelo comando: 
+✏️Iniciamos o nosso serv pelo comando: 
 ```
 npm start
 ```
+ou
 ```
 npm run dev
 ```
