@@ -55,9 +55,12 @@ npm run dev
 
 ## Rotas implementadas
 
-⚡️GET --> Rota responsável, em CRUD ler
+⚡️GET --> Rota responsável, em CRUD por ler os registros desejados. Implementei essa funcionalidade para ler todos os registros sem distinção, findAll; e nos demais atributos, exceto pelo de descrição, podendo ser consultados por:
+```
+/livro/<nome do atributo a ser consultado>/<busca por correspondência>
+```
 
-⚡️PUT --> Rota responsável, em CRUD atualizar
+⚡️PUT --> Rota responsável, em CRUD por atualizar
 
 ⚡️POST --> Rota responsável, em CRUD por criar
 
