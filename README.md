@@ -55,7 +55,10 @@ npm run dev
 
 ## Rotas implementadas
 
-⚡️GET --> Rota responsável, em CRUD *ler
-⚡️PUT --> Rota responsável, em CRUD *atualizar
-⚡️POST --> Rota responsável, em CRUD por *criar
-⚡️DELETE -->Rota responsável, em CRUD por *deletar
+⚡️GET --> Rota responsável, em CRUD ler
+
+⚡️PUT --> Rota responsável, em CRUD atualizar
+
+⚡️POST --> Rota responsável, em CRUD por criar
+
+⚡️DELETE -->Rota responsável, em CRUD por deletar
