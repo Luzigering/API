@@ -17,8 +17,7 @@ Sabemos que a convenção seria fazer todas as entidades, mas a modalidade escol
  
  ✏️[Nodemon](https://www.npmjs.com/package/nodemon)                           ✏️[Jest](https://jestjs.io/docs/getting-started) 
  
-   
-                                 ✏️[Supertest](https://www.npmjs.com/package/supertest) 
+  
 
 ## Instalação da Aplicação
 
