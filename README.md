@@ -13,7 +13,9 @@ Sabemos que a convenção seria fazer todas as entidades, mas a modalidade escol
 
 ## Pacotes utilizados
  ✏️[Express](https://www.npmjs.com/package/express) 
+ 
  ✏️[Nodemon](https://www.npmjs.com/package/nodemon) 
+ 
  ✏️[SQLite](https://www.npmjs.com/package/sqlite3)  
  ✏️[Jest](https://jestjs.io/docs/getting-started)   
  ✏️[Supertest](https://www.npmjs.com/package/supertest) 
