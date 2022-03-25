@@ -60,18 +60,22 @@ npm run dev
 /livro/<nome do atributo a ser consultado>/<busca por correspondência>
 ```
 
-⚡️PUT --> Rota responsável, em CRUD por atualizar os registros desejados, com os campos desejados com as respectivas alterações, a chamada do registro para a efetiva alteração é feita como segue:
+⚡️PUT --> Rota responsável, em CRUD por atualizar os registros desejados, com campos e as respectivas alterações, a chamada do registro para a efetiva alteração é feita como segue:
 ```
 /livro/<id>/<id desejado>
 ```
-
+Os registros a serem atualizados deverão seguir os mesmos requisitos fornecidos para a ação de post, declarados mais abaixo:
 ⚡️POST --> Rota responsável, em CRUD por criar novos registros no nosso banco, precisamos inserir valores que estejam de acordo com as condições estabeleciadas previamente na criação:
 ```
 "id": "<AUTO_INCREMENT>"
-"titulo": "<Precisa ser um >"
-"status": "<Precisa ser um >"
-"categoria": "<Precisa ser um >"
-"autor": "<Precisa ser um >"
+"titulo": "<Precisa ser um VARCHAR(255)>"
+"descricao": "<Precisa ser uma string suportada pelo formato LONG TEXT >"
+"status": "<'Disponível' ou 'Indisponível'>"
+"categoria": "<Precisa ser uma 'catpermitida'>"
+"autor": "<Precisa ser um VARCHAR(255)>"
 ```
 
 ⚡️DELETE -->Rota responsável, em CRUD por deletar registros de um banco, funciona pela seguinte sintaxe:
+```
+/livros/<id>/<id do registro a ser deletado>
+```
